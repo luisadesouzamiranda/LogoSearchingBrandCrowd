@@ -20,5 +20,17 @@ class SearchLogo {
   static clickBackonBrowser() {
     Page.clickBack();
   }
+  static inputKeywords(selector, keywords) {
+    Page.typeInput(selector, keywords);
+  }
+  static selectDropDown(selector, text, value) {
+    Page.selectDropdownItem(selector, text, value);
+  }
+  static checkDropdown(selector, text) {
+    Page.checkDropdownItem(selector, text);
+  }
+  static checkIfResultRelevant(selector, text) {
+    Page.clickLogo(selector, text);
+  }
 }
 export default SearchLogo;

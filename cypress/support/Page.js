@@ -16,5 +16,11 @@ class Page {
   static clickBack() {
     cy.go("back");
   }
+  static selectDropdownItem(selector, text, value) {
+    cy.get(selector).select(text).should("have.value", value);
+  }
+  static checkDropdownItem(selector, text) {
+    cy.get(selector).click().contains(text).click();
+  }
 }
 export default Page;
