@@ -33,12 +33,12 @@ To run this project, install it locally using npm:
 
 #### Test cases
 
-**TS001** | Search should return results when using none, one or more searching criteria. | Three test cases Automated
+**TS001** | Search should return results when using none, one or more searching criteria. | Three test cases Automated.
 
 **TS002** | Search logo result should be relevant to fields Business Name, Key Word, Logo Style, Font Style and Color.
 
-**TS003** | Search should not crash if criteria includes special characters or only spaces | One test cases Automated
+**TS003** | Search should not crash if criteria includes special characters or only spaces | One test cases Automated.
 
 **TS004** | Navigating away by cliking in one logo, and click back on browser or back button, should redirect user to the same page and keep the results.
 
-**TS005** | Pagination should keep the searching criteria
+**TS005** | Pagination should keep the searching criteria.
