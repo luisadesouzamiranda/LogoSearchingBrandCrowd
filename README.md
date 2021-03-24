@@ -21,6 +21,9 @@ Project is created with:
 To run this project, install it locally using npm:
 
 $ git clone https://github.com/luisadesouzamiranda/LogoSearchingBrandCrowd.git
+
 $ $ cd ../LogoSearchingBrandCrowd
+
 $ npm install
+
 $ npn test
