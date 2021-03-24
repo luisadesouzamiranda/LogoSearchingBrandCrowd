@@ -13,4 +13,14 @@ describe("LogoSearch", () => {
     SearchLogo.clickButton('*[class="button alert"]', "create");
     SearchLogo.checkIfSearchHasResult(".responsive-embed");
   });
+
+  it("Search should return result with Business name searching criteria", function () {
+    SearchLogo.inputBusinessName("#gtm-SearchText", this.testdata.businessName);
+    SearchLogo.clickButton('*[class="button alert"]', "create");
+    SearchLogo.checkIfResultRelevant(
+      ".responsive-embed__image",
+      `text=${this.testdata.businessName}`
+    );
+    SearchLogo.clickBackonBrowser();
+  });
 });
