@@ -38,5 +38,12 @@ describe("LogoSearch", () => {
       ".responsive-embed__image",
       `text=${businessName}`
     );
+    SearchLogo.clickBackonBrowser();
+  });
+  it("Search should not crash when criteria includes non-alphanumeric text", function () {
+    const { specialCharacters } = this.testdata;
+    SearchLogo.inputBusinessName("#gtm-SearchText", specialCharacters);
+    SearchLogo.clickButton('*[class="button alert"]', "create");
+    SearchLogo.checkIfSearchHasResult(".responsive-embed");
   });
 });
