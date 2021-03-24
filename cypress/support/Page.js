@@ -11,7 +11,10 @@ class Page {
   }
   static clickLogo(selector, text) {
     cy.get(selector).first().click();
-    Navigation.assertCheckIfPageUrlContains(text);
+    Browser.CheckIfPageUrlContains(text);
+  }
+  static clickBack() {
+    cy.go("back");
   }
 }
 export default Page;

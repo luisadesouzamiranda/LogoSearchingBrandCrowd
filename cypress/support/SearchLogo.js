@@ -17,5 +17,8 @@ class SearchLogo {
   static checkIfResultRelevant(selector, text) {
     Page.clickLogo(selector, text);
   }
+  static clickBackonBrowser() {
+    Page.clickBack();
+  }
 }
 export default SearchLogo;

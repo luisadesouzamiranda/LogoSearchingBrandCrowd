@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm test"
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
