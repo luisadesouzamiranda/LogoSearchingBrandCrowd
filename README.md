@@ -4,7 +4,8 @@
 
 - [General info](#general-info)
 - [Technologies](#technologies)
-- [Setup](#setup)
+- [Installing and Running this project](#installing-and-Running-this-project)
+- [Test cases](#test-cases)
 
 #### General info
 
