@@ -1,0 +1,23 @@
+{
+  "name": "logosearchingbrandcrowd",
+  "version": "1.0.0",
+  "description": "DesignCrowd Technical Challenge - Tester",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisadesouzamiranda/LogoSearchingBrandCrowd.git"
+  },
+  "author": "Luisa De Souza Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisadesouzamiranda/LogoSearchingBrandCrowd/issues"
+  },
+  "homepage": "https://github.com/luisadesouzamiranda/LogoSearchingBrandCrowd#readme"
+}
