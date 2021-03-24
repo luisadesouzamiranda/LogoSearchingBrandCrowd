@@ -9,7 +9,7 @@
 
 #### General info
 
-This project is a technical challenge for DeseignCrowd.
+This project is a technical challenge for DesignCrowd.
 
 #### Technologies
 
